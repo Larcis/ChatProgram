@@ -1,0 +1,2 @@
+gcc -lpthread server.c -o a.o -lws2_32 -o server.exe
+gcc -lpthread client.c -o a.o -lws2_32 -o client.exe
